@@ -1,0 +1,29 @@
+.example-card {
+    width: 700px;
+    // max-width:100%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top:20px;
+    margin-right:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card-image {
+    // margin-left: 12px; /* Optional: Add some spacing between the image and the title */
+    align-self: flex-start;
+    margin-right: 12px;
+  }
+
+.aligned-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+

@@ -1,0 +1,30 @@
+<span class="aligned-span">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+           
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <br>
+            <form [formGroup]="montyHallForm">
+                <span><h4>1. Please enter no of simiulations:</h4></span>&nbsp;
+                <mat-form-field appearance="outline">
+                  <mat-label>Enter value</mat-label>
+                  <input matInput type="number" formControlName="numberField">
+                </mat-form-field>
+                <br>
+                <span><h4>2. Do you prefer to Change the door :</h4></span>
+                <mat-radio-group formControlName="radioField">
+                  <mat-radio-button value=true>Yes</mat-radio-button>
+                  <mat-radio-button value=false>No</mat-radio-button>
+                </mat-radio-group>
+                <br>
+                <br>
+                <button mat-raised-button color="primary" (click)="postSimiulate()">Start</button>
+              </form>
+        </mat-card-content>
+    </mat-card>
+</span>
+
+
