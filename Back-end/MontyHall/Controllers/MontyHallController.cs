@@ -51,7 +51,7 @@ namespace MontyHall.Controllers
             Random random = new Random();
             int chosenDoor = random.Next(3);
             int carDoor = random.Next(3);
-            int goatToRemove = random.Next(1);
+            int goatToRemove = random.Next(3);
             bool win = false;
 
             // Take out one of the goat doors at random.
