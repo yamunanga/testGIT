@@ -19,7 +19,8 @@ export class MontyHallViewComponent {
   constructor(private dialog: MatDialog,public service:MontyHallServiceService,private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-   
+    
+    console.log('Hello world !')
     this.initializeForm()
 
     this.isChanged()
